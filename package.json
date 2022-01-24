@@ -1,0 +1,28 @@
+{
+  "name": "hulu_clone",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.5",
+    "autoprefixer": "^10.4.2",
+    "next": "12.0.8",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "postcss": "^8.4.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-flip-move": "^3.0.4",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwindcss": "^3.0.13"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8"
+  }
+}

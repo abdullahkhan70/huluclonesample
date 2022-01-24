@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** 
+ We are going to assign the background color on our entire app.
+ Here JIT (Just-In-Time) Compiler will tell our app or tailwind that
+ we want to overwrite our by default color scheme which is provided 
+ from the TailWind, and then add our own color scheme instead of it.
+*/
+
+@layer base {
+  body {
+    @apply bg-[#06202A] text-gray-300;
+  }
+}
