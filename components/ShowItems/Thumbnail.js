@@ -12,6 +12,7 @@ const Thumbnail = forwardRef(({ results }, ref) => {
         layout="responsive"
         height={1080}
         width={1920}
+        alt={"Image is not Available."}
         src={`${base_url}${results?.backdrop_path || results?.poster_path}`}
       />
       <div className="p-2">
